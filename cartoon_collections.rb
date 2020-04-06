@@ -7,7 +7,7 @@ end
 def summon_captain_planet(calls)
   updated = []
   updated << calls.map{|x| "#{x}!"}
-  updated.map{|x| x.titlecase}
+  updated.map{|x| x.capitalize}
   updated[]
 end
 
