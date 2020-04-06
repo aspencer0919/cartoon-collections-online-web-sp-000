@@ -20,7 +20,10 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  intersection = (array & cheese_types)
-  num = intersection.length
-  return "#{array[num]}"
+  match = array & cheese_types
+  if match == nil
+    return nil
+  else
+    return match
+  end
 end
