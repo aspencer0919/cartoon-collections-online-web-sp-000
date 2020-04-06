@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  calls.collect{|x| x.upcase, x + "!"}
+  calls.map{|x| x + "!"}.titlecase
 
 end
 
