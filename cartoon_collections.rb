@@ -20,10 +20,10 @@ end
 
 def find_the_cheese(array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  match = array & cheese_types
-  if match == nil
-    return nil
+  c = array & cheese_types
+  if array.include?(cheese_types)
+    return c
   else
-    return match
+    return nil
   end
 end
