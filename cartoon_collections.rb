@@ -24,6 +24,6 @@ def find_the_cheese(array)
   if match == nil
     return nil
   else
-    return match
+    return "#{match}"
   end
 end
