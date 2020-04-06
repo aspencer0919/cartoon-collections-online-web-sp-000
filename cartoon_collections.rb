@@ -5,8 +5,10 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  calls.map{|x| x.titlecase & "#{x}!"}
-
+  updated = []
+  updated << calls.map{|x| "#{x}!"}
+  updated.map{|x| x.titlecase}
+  updated[]
 end
 
 def long_planeteer_calls# code an argument here
