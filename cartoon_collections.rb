@@ -8,6 +8,7 @@ def summon_captain_planet(calls)
   updated = []
   updated << calls.map{|x| "#{x}!"}
 #  updated.map{|x| x.titleize}
+return updated
 end
 
 def long_planeteer_calls# code an argument here
